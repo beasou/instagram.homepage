@@ -21,7 +21,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: start;
-  width: 68%;
+  width: 50%;
   height: 100vh;
 }
 
@@ -74,4 +74,73 @@ body {
 
 .profile-photo img {
   height: 6rem;
+}
+
+.instagram-login {
+  background-color: #0095f6;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.instagram-logout {
+  color: #0095f6;
+  margin-top: 1rem;
+}
+
+.not-account {
+  color: rgba(160, 160, 160);
+}
+
+.link-blue {
+  color: #0095f6;
+}
+
+.get-the-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
+}
+
+.download {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.app-download {
+  height: 3rem;
+  width: 10rem;
+  background-size: cover;
+}
+
+.app-download:nth-child(2) {
+  background-image: url("./img/klipartz.com.png");
+}
+.app-download:nth-child(1) {
+  background-image: url("./img/apple.png");
+}
+
+/* media queries*/
+@media (min-width: 1024px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+}
+@media (max-width: 650px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+  .instagram-phone {
+    display: none;
+  }
+
+  .instagram-continue {
+    width: 100%;
+  }
 }
