@@ -1,4 +1,4 @@
-# instagram.homepage
+# Homepage do Instagram 
 Recreating the Instagram homepage
 Recriando a interface homepage do instagram, atividade desenvolvida no curso HTML Web Developer - Ofertado pela plataforma DIO-Digital Innovation One(https://web.dio.me/track/html-web-developer?tab=path);
 
